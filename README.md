@@ -37,7 +37,7 @@ conda create -n <environment name>
 conda activate <environment name>
 pip install -r requirements.txt
 ```
-## Install taming-transformers
+Install taming-transformers
 
 ```bash
 pip install git+https://github.com/CompVis/taming-transformers
