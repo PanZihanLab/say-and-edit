@@ -40,3 +40,22 @@ pip install -r requirements.txt
 
 ```bash
 pip install git+https://github.com/CompVis/taming-transformers
+## RUN
+
+1. Text-guided image editing
+
+```bash
+python edit.py --input imgs/ice.png --output imgs/iceout.png --edit "Turn it into a double ice cream"
+2. 3D generation
+
+```bash
+python pzh_gradio.py
+## Results
+
+<p align="center">
+  <img src="ckpt/fig6.jpg" width="900"/>
+</p>
+
+<p align="center">
+  <i>Qualitative results of our two-stage pipeline (image editing + 3D generation).</i>
+</p>
