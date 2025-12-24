@@ -29,3 +29,7 @@ while significantly enhancing overall efficiency.
 </p>
 <h1 align="center">Install</h1>
 Install packages in requirments.txt,We trained the model on a single 4090 gpu with CUDA,We recommend using a Linux server for reproduction
+```bash
+conda create -n <environment name>
+conda activate <environment name>
+pip install -r requirements.txt
