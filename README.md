@@ -25,7 +25,7 @@ while significantly enhancing overall efficiency.
 </p>
 
 <p align="center">
-  <i>Figure 1. Overview of the proposed two-stage text-guided 3D object editing framework.</i>
+  <i>Overview of the proposed two-stage text-guided 3D object editing framework.</i>
 </p>
 ## Install
 
@@ -36,8 +36,25 @@ We trained the model on a single RTX 4090 GPU with CUDA, and we recommend using 
 conda create -n <environment name>
 conda activate <environment name>
 pip install -r requirements.txt
-
+```
 ## Install taming-transformers
 
 ```bash
 pip install git+https://github.com/CompVis/taming-transformers
+```
+## RUN
+
+1. Text-guided image editing
+
+```bash
+python edit.py --input imgs/ice.png --output imgs/iceout.png --edit "Turn it into a double ice cream"
+```
+2  3D generation
+
+```bash
+python pzh_gradio.py
+```
+## Results
+<p align="center">
+  <img src="ckpt/fig6.jpg"/>
+</p>
