@@ -27,8 +27,11 @@ while significantly enhancing overall efficiency.
 <p align="center">
   <i>Figure 1. Overview of the proposed two-stage text-guided 3D object editing framework.</i>
 </p>
-<h1 align="center">Install</h1>
-Install packages in requirments.txt,We trained the model on a single 4090 gpu with CUDA,We recommend using a Linux server for reproduction
+## Install
+
+Install packages in `requirements.txt`.  
+We trained the model on a single RTX 4090 GPU with CUDA, and we recommend using a Linux server for reproduction.
+
 ```bash
 conda create -n <environment name>
 conda activate <environment name>
