@@ -36,3 +36,7 @@ We trained the model on a single RTX 4090 GPU with CUDA, and we recommend using 
 conda create -n <environment name>
 conda activate <environment name>
 pip install -r requirements.txt
+## Install taming-transformers
+
+```bash
+pip install git+https://github.com/CompVis/taming-transformers
