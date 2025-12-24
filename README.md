@@ -27,6 +27,7 @@ while significantly enhancing overall efficiency.
 <p align="center">
   <i>Overview of the proposed two-stage text-guided 3D object editing framework.</i>
 </p>
+
 ## Install
 
 Install packages in `requirements.txt`.  
@@ -49,7 +50,7 @@ pip install git+https://github.com/CompVis/taming-transformers
 ```bash
 python edit.py --input imgs/ice.png --output imgs/iceout.png --edit "Turn it into a double ice cream"
 ```
-2  3D generation
+2. 3d generation
 
 ```bash
 python pzh_gradio.py
