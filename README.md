@@ -21,7 +21,7 @@ while significantly enhancing overall efficiency.
 </p>
 
 <p align="center">
-  <img src="assets/fig.1.jpg"/>
+  <img src="ckpt/fig.1.jpg"/>
 </p>
 
 <p align="center">
